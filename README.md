@@ -5,8 +5,8 @@ questions you can't reasonably express in SQL — *who can introduce me to this 
 to my team's managers?*, *whose network should I hire through next?* — using a live graph database
 ([**CognoDB**](https://cognodb.com), which speaks openCypher over the Bolt protocol).
 
-Built for the **Wexa AI full-stack take-home assignment**. Submitted by **prabowo87** — submitted to Wexa HR under subject
-line **"CognoDB Assignment 2 – prabowo87"**.
+Built for the **Wexa AI full-stack take-home assignment**. Submitted by **Hermawan Prabowo** — submitted to Wexa HR under subject
+line **"CognoDB Assignment 2 – Hermawan Prabowo"**.
 
 - **Data layer:** CognoDB (managed graph DB, openCypher over Bolt 5.x), queried with the official
   [`neo4j-driver`](https://www.npmjs.com/package/neo4j-driver) for Node.js. No custom SDK.
