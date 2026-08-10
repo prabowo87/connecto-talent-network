@@ -24,6 +24,9 @@ yarn-debug.log*
 # Coverage
 coverage/
 
+# Personal prep notes (do NOT commit)
+docs/INTERVIEW-*.md
+
 # Vite
 client/.vite/
 .vercel
