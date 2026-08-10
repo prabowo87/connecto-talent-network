@@ -243,6 +243,17 @@ Environment variables configured on the Vercel project: `NEO4J_URI`, `NEO4J_USER
 
 ---
 
+## 🎬 Demo video
+
+A short screen recording walking through the app — overview, the shortest-path explorer, introductions, and
+graph-powered candidate search (live data from the CognoDB instance):
+
+<video src="docs/video/demo.mp4" controls muted preload="metadata" style="max-width:100%;border-radius:12px;width:100%"></video>
+
+> The video is committed as `docs/video/demo.mp4` (H.264, ~3 MB).
+
+---
+
 ## Screenshots
 
 | Overview | People directory |
