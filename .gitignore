@@ -25,7 +25,7 @@ yarn-debug.log*
 coverage/
 
 # Personal prep notes (do NOT commit)
-docs/INTERVIEW-*.md
+docs/MYNOTES-*.md
 
 # Vite
 client/.vite/
