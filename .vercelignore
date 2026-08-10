@@ -1,0 +1,7 @@
+# Never upload real credentials to Vercel.
+.env
+.env.*
+!.env.example
+
+# Local-only
+node_modules/

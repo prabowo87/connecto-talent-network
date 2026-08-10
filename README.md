@@ -223,6 +223,27 @@ npm start          # serves the API; point a static host at client/dist
 
 ---
 
+## 🚀 Live demo (hosted on Vercel)
+
+**https://wexaai-purehire.vercel.app**
+
+Deployed as a single Vercel serverless function: the Express app serves **both** the `/api/*` endpoints and the built
+frontend (static assets + SPA fallback). Connection details are injected as Vercel environment variables — nothing is
+committed.
+
+Re-deploy (from this repo root):
+
+```bash
+vercel login                 # once
+npm run build -w client      # ensures client/dist is fresh (used by the function)
+vercel deploy --prod --yes   # uploads + builds + deploys
+```
+
+Environment variables configured on the Vercel project: `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`
+(`.vercelignore` keeps the real `.env` off the deployment).
+
+---
+
 ## Screenshots
 
 | Overview | People directory |

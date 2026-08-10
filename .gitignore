@@ -26,3 +26,4 @@ coverage/
 
 # Vite
 client/.vite/
+.vercel
