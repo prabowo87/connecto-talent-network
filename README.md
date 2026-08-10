@@ -225,8 +225,7 @@ npm start          # serves the API; point a static host at client/dist
 
 ## 🚀 Live demo (hosted on Vercel)
 
-**https://wexaai-purehire.vercel.app**
-
+**https://connecto-wexa.vercel.app**
 Deployed as a single Vercel serverless function: the Express app serves **both** the `/api/*` endpoints and the built
 frontend (static assets + SPA fallback). Connection details are injected as Vercel environment variables — nothing is
 committed.
