@@ -1,0 +1,27 @@
+{
+  "name": "connecto-talent-graph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Connecto — a talent referral network backed by a graph database (CognoDB).",
+  "type": "module",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,magenta \"npm:dev -w server\" \"npm:dev -w client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "seed": "npm run seed -w server",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "concurrently": "^9.0.1",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^15.10.0"
+  }
+}
